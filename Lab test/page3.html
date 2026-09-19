@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      width: 500px;
+      margin: auto;
+      text-align: left;
+    }
+    fieldset {
+      margin-bottom: 20px;
+    }
+    .link-box {
+            border: 3px solid green;
+            width: 500px;
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+  </style>
+</head>
+<body>
+  <div class="container">
+   <center><h2>Contact Form.</h2><center>
+    <div class="link-box">
+        <p>Using the following links you can navigate to another page:</p>
+        <a href="#">Page 1</a>
+        <a href="#">Page 2</a>
+        <a href="#">Page 3</a>
+    </div>
+
+    <center><h3>Please fill in following form.</h3></center>
+    <form>
+      <fieldset>
+        <p><b>Last Name:</b> <input type="text" placeholder="Enter your last name"></p>
+        <p><b>First Name:</b> <input type="text" placeholder="Enter your first name"></p>
+        <p><b>Email:</b> <input type="email" placeholder="Enter your email"></p>
+        <p><b>Address:</b> <input type="text" placeholder="Enter your address"></p>
+        <p><b>Gender:</b> 
+          <input type="radio" name="gender">Male 
+          <input type="radio" name="gender">Female 
+          <input type="radio" name="gender">Others
+        </p>
+        <p><b>Remarks</b><br><textarea rows="3" cols="30"></textarea></p>
+        <p><b>Subscribe:</b> <input type="checkbox">Subscribe</p>
+        <p><input type="submit"> <input type="reset"></p>
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
